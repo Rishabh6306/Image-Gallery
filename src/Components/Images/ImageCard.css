@@ -1,12 +1,11 @@
 .image-card {
   position: relative;
-  display: inline-block;
   margin: 10px;
 }
 
+
 .image-card img {
-  max-width: 100%;
-  height: auto;
+  width: 100%;
 }
 
 .image-card button {

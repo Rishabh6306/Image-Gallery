@@ -14,7 +14,10 @@ body {
 }
 
 .image-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    /* display: flex;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    
+    margin: 10px;
 }

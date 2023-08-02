@@ -18,7 +18,7 @@ const CategoryFilter = ({ onSelectCategory }) => {
 
   return (
     <div className="category-filter">
-      <h2>Filter by Category </h2>
+      <h2>Category </h2>
       <ul>
         {categories.map((category) => (
           <li

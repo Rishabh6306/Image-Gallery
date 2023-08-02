@@ -1,7 +1,7 @@
 h1 {
-    font-size: 3.1rem;
+    font-size: 3.0rem;
     color: black;
-    margin: 25px 0;
+    padding-bottom: 20px;
 }
 
 input {
@@ -33,4 +33,5 @@ select {
     padding: 16px 20px;
     float: right;
     border-radius: 14px;
+    margin-right: 20px;
 }
