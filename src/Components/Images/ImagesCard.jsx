@@ -36,7 +36,7 @@ const ImageCard = ({ imageUrl }) => {
       />
       {imageLoaded && (
         <button disabled={isDownloading} onClick={handleDownload}>
-          {isDownloading ? 'Downloading...' : 'Download'}
+          {isDownloading ? 'Downloading...' : '🡻'}
         </button>
       )}
     </div>

@@ -31,13 +31,16 @@ const App = () => {
 
   return (
     <div className="App">
-      
       <Search onSearch={handleSearch} onColorFilter={setSelectedColor} />
       <CategoryFilter onSelectCategory={setSelectedCategory} />
       <div className="image-list">
-        {images.map((image) => (
-          <ImageCard key={image.id} imageUrl={image.webformatURL} />
-        ))}
+        {images.length === 0 ? (
+          <p id='message'>No images found.</p>
+        ) : (
+          images.map((image) => (
+            <ImageCard key={image.id} imageUrl={image.webformatURL} />
+          ))
+        )}
       </div>
     </div>
   );
