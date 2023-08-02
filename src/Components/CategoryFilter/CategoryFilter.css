@@ -1,0 +1,25 @@
+.category-filter {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.category-filter ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.category-filter li {
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.category-filter li.selected {
+    background-color: #333;
+    color: #fff;
+}
