@@ -21,7 +21,7 @@ Welcome to the Image Gallery! Immerse yourself in a visually captivating experie
 
 ## Getting Started
 
-1. **Clone the Repository:** `git clone https://github.com/your-username/image-gallery.git`
+1. **Clone the Repository:** `git clone https://github.com/Rishabh6306/Image-Gallery.git`
 
 2. **Install Dependencies:** `npm install`
 
