@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './Search.css'
 
 const Search = ({ onSearch, onColorFilter }) => {
   const [query, setQuery] = useState('');
@@ -16,13 +17,14 @@ const Search = ({ onSearch, onColorFilter }) => {
 
   return (
     <div className="search-container">
+      <h1>Image Gallery</h1>
       <input
         type="text"
         placeholder="Search for images..."
         value={query}
         onChange={(e) => setQuery(e.target.value)}
       />
-      <button onClick={handleSearch}>Search</button>
+      <button id='search' onClick={handleSearch}>Search</button>
       <select
         value={selectedColor}
         onChange={(e) => setSelectedColor(e.target.value)}

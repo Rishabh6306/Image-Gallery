@@ -31,7 +31,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Pixabay Image Search</h1>
+      
       <Search onSearch={handleSearch} onColorFilter={setSelectedColor} />
       <CategoryFilter onSelectCategory={setSelectedCategory} />
       <div className="image-list">

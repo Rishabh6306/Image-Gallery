@@ -1,0 +1,36 @@
+h1 {
+    font-size: 3.1rem;
+    color: black;
+    margin: 25px 0;
+}
+
+input {
+    width: 30%;
+    padding: 16px 10px;
+    font-size: 24px;
+    color: black;
+    border-radius: 10px;
+    border: 2px solid magenta;
+}
+
+#search {
+    padding: 17px 24px;
+    font-size: 22px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+#search:hover {
+    background-color: #565656;
+}
+
+select {
+    color: black;
+    font-size: 22px;
+    padding: 16px 20px;
+    float: right;
+    border-radius: 14px;
+}
