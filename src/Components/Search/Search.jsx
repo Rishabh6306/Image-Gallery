@@ -9,6 +9,12 @@ const Search = ({ onSearch, onColorFilter }) => {
     onSearch(query);
   };
 
+  const handleKeyPress = (e) => {
+    if (e.key === 'Enter') {
+      handleSearch();
+    }
+  };
+
   useEffect(() => {
     if (selectedColor) {
       onColorFilter(selectedColor);
@@ -17,12 +23,13 @@ const Search = ({ onSearch, onColorFilter }) => {
 
   return (
     <div className="search-container">
-      <h1>Image Gallery</h1>
+      <h1>Image Gallery</h1> 
       <input
         type="text"
         placeholder="Search for images..."
         value={query}
         onChange={(e) => setQuery(e.target.value)}
+        onKeyPress={handleKeyPress}
       />
       <button id='search' onClick={handleSearch}>Search</button>
       <select
