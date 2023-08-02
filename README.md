@@ -25,9 +25,11 @@ Welcome to the Image Gallery! Immerse yourself in a visually captivating experie
 
 2. **Install Dependencies:** `npm install`
 
-3. **Start Development:** `npm run dev`
+3. 3. **Add your Pixabay API Key:** Open `src/App.js` and replace `'YOUR_API_KEY'` with your Pixabay API key. You can generate an API key by signing up on [Pixabay](https://pixabay.com/api/docs/).
 
-4. **Access the Gallery:** Open your browser and visit the provided URL.
+4. **Start Development:** `npm run dev`
+
+5. **Access the Gallery:** Open your browser and visit the provided URL.
 
 ## How to Contribute
 
